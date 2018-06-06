@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.smartpowerdemo.CreateUserActivity">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="9dp"
+            android:hint="UserName"
+            android:inputType="textCapWords"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+    <!-- Email Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="9dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:hint="Mobile Number"
+            android:drawablePadding="9dp"
+            android:inputType="phone"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="9dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_password_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="34dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="9dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+<Button
+    android:id="@+id/createUserBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Create User"
+    android:textAllCaps="false"
+    />
+
+</LinearLayout>
